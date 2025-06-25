@@ -2,7 +2,7 @@ CREATE DATABASE db_empresarh;
 USE db_empresarh;
 
 CREATE TABLE tb_colaboradores (
-    id INT AUTO_INCREMENT, 
+    id BIGINT AUTO_INCREMENT, 
     nome VARCHAR(100),
     cargo VARCHAR(50),
     setor VARCHAR(50),
@@ -24,4 +24,4 @@ SELECT * FROM tb_colaboradores WHERE salario > 2000;
 
 SELECT * FROM tb_colaboradores WHERE salario < 2000;
 
-UPDATE tb_colaboradores SET salario = 1500.00 WHERE id = 17
+UPDATE tb_colaboradores SET salario = 1500.00 WHERE id = 5;
