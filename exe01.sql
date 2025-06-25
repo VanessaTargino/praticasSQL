@@ -1,5 +1,5 @@
-CREATE DATABASE tb_empresarh;
-USE tb_empresarh;
+CREATE DATABASE db_empresarh;
+USE db_empresarh;
 
 CREATE TABLE tb_colaboradores (
     id INT AUTO_INCREMENT, 
