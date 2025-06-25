@@ -24,4 +24,4 @@ SELECT * FROM tb_colaboradores WHERE salario > 2000;
 
 SELECT * FROM tb_colaboradores WHERE salario < 2000;
 
-UPDATE tb_colaboradores SET salario = 2500.00 WHERE id = 17
+UPDATE tb_colaboradores SET salario = 1500.00 WHERE id = 17
